@@ -50,7 +50,7 @@ func setup(name: String) {
     animationView.loopMode = .loop
     addSubView(animationView) // 애니메이션 뷰를 contentView에 삽입
     ...
-       animationView.play()
+    animationView.play()
 }
 
 func disappear() {
